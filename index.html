@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <title>Travel Blog</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="./js/index.js" defer></script>
@@ -18,16 +18,16 @@
       <menu class="menu">
         <div class="menu__logo">
           <img src="./img/backpacker.svg" alt="Логотип сайта" class="menu__logo-img">
-          <a href="index.html"><h2 class="menu__logo-title">Travel Blog</h2></a>
+          <a class="menu-link" href="index.html"><h2 class="menu__logo-title">Travel Blog</h2></a>
         </div>
         <ul class="menu__list">
-          <li class="menu__list-item"><a href="index.html">Домой</a></li>
-          <li class="menu__list-item" id="menu"><a href="#">Меню</a></li>
+          <li class="menu__list-item menu-link"><a href="index.html">Домой</a></li>
+          <li class="menu__list-item menu-link" id="menu"><a href="#">Меню</a></li>
           <ul class="menu__list-burger" id="menu__list-burger">
-            <li class="menu__list-item"><a href="#">Россия</a></li>
-            <li class="menu__list-item"><a href="#">Санкт-Петербург</a></li>
-            <li class="menu__list-item"><a href="#">Великий Новгород</a></li>
-            <li class="menu__list-item"><a href="#">Выборг</a></li>
+            <li class="menu__list-item menu-link"><a href="#">Россия</a></li>
+            <li class="menu__list-item menu-link"><a href="#">Санкт-Петербург</a></li>
+            <li class="menu__list-item menu-link"><a href="#">Великий Новгород</a></li>
+            <li class="menu__list-item menu-link"><a href="#">Выборг</a></li>
             <div class="menu__list-burger-btn" id="close-btn">
               <span></span>
               <span></span>
@@ -106,8 +106,27 @@
     </div>
   </main>
   <footer class="footer">
-    <div class="container">
-
+    <div class="container container-footer">
+      <div class="footer__main">
+        <div class="footer__menu">
+          <ul class="footer__menu-list">
+            <li class="footer__menu-item menu-link"><a href="index.html">Домой</a></li>
+            <li class="footer__menu-item menu-link"><a href="#">Россия</a></li>
+            <li class="footer__menu-item menu-link"><a href="#">Санкт-Петербург</a></li>
+            <li class="footer__menu-item menu-link"><a href="#">Великий Новгород</a></li>
+            <li class="footer__menu-item menu-link"><a href="#">Выборг</a></li>
+          </ul>
+        </div>
+        <div class="footer__info">
+          <ul class="footer__info-list">
+            <li class="footer__info-item menu-link">Политика конфиденциальности</li>
+            <li class="footer__info-item menu-link"><a href="https://t.me/irish_kin">Разработка сайта</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <p>2023 © Все права защищены</p>
+      </div>
     </div>
   </footer>
 </body>
