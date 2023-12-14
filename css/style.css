@@ -47,6 +47,7 @@ body {
   width: 100%;
   padding: 20px 0;
   background-image: url(../img/map-gradient.png);
+  background-size: cover;
   user-select: none;
 }
 
@@ -285,8 +286,22 @@ body {
 .marketing-box {
   height: 336px;
   width: 330px;
-  background-color: #fff;
+  background-image: url(../img/siberia.png);
+  background-position: center center;
+  background-size: cover;
   padding: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.marketing-box h2 {
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .footer {
@@ -428,6 +443,12 @@ body {
     margin-bottom: 30px;
     order: -1;
     position: static;
+  }
+
+  .header {
+    background-image: url(../img/mountlake.png);
+    background-position: center center;
+    background-size: cover;
   }
 
   .sidebar-links, .marketing-box {
