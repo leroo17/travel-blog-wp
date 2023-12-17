@@ -1,18 +1,20 @@
 function openMenu() {
+
     const menuBtn = document.getElementById('menu');
-    menuBtn.onclick = () => {
+    menuBtn.addEventListener ('click', () => {
         const menuBurger = document.getElementById('menu__list-burger');
         menuBurger.style.display = 'flex';
     }
-};
+)};
 
 function closeMenu() {
+
     const closeBtn = document.getElementById('close-btn');
-    closeBtn.onclick = () => {
+    closeBtn.addEventListener('click', () => {
         const menuBurger = document.getElementById('menu__list-burger');
         menuBurger.style.display = 'none';
     }
-};
+)};
 
 openMenu();
 closeMenu();
