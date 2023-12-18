@@ -1,8 +1,4 @@
-<?php
-/*
-Template Name: home
-*/
-?>
+
 
 <?php get_header(); ?>
   <main class="main">

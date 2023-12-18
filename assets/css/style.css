@@ -76,6 +76,11 @@ body {
   width: 60px;
 }
 
+.menu__logo-img img{
+  height: 60px;
+  width: 60px;
+}
+
 .menu__logo-title {
   text-transform: uppercase;
   font-weight: 700;
@@ -89,7 +94,7 @@ body {
   font-size: 18px;
 }
 
-.menu__list-burger {
+.menu-burger {
   position: fixed;
   top: 40px;
   top: 0;
@@ -105,6 +110,14 @@ body {
   height: 100%;
   animation: slide .5s linear 0s alternate;
   z-index: 10;
+}
+
+.menu__list-burger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 @keyframes slide {
