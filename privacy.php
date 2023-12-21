@@ -1,6 +1,7 @@
 <?php
 /*
 Template Name: privacy
+Template Post Type: page
 */
 ?>
 

@@ -19,10 +19,10 @@
               }
             ?>
           </div>
-          <a class="menu-link" href="index.php"><h2 class="menu__logo-title">Travel Blog</h2></a>
+          <a class="menu-link" href="https://travel-blog.wfile.ru/"><h2 class="menu__logo-title">Travel Blog</h2></a>
         </div>
         <ul class="menu__list">
-          <li class="menu__list-item menu-link" id="home"><a class="nav-link" href="index.html">Домой</a></li>
+          <li class="menu__list-item menu-link" id="home"><a class="nav-link" href="https://travel-blog.wfile.ru/">Домой</a></li>
           <li class="menu__list-item menu-link" id="menu"><a href="#" class="nav-link" href="#">Меню</a></li>
           <li class="menu-burger" id="menu-burger">
             <?php wp_nav_menu( [
@@ -38,16 +38,11 @@
                 <span></span>
             </a>
           </li>
-
-            <!-- <li class="menu__list-item menu-link"><a href="#">Все записи</a></li>
-            <li class="menu__list-item menu-link"><a href="#">Галерея</a></li>
-            <li class="menu__list-item menu-link"><a href="#">Видео</a></li>
-            <li class="menu__list-item menu-link"><a href="#">О проекте</a></li> -->
         </ul>
       </menu>
       <div class="header__content">
         <h1 class="header__content-title">блог о путешествиях</h1>
-        <p class="header__content-text"></p>
+        <p class="header__content-text">Исследуй мир, вдохновляйся, изучай новое вместе с "Travel Blog"</p>
       </div>
     </div>
   </header>

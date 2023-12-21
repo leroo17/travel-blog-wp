@@ -73,4 +73,22 @@ function fix_svg_mime_type( $data, $file, $filename, $mimes, $real_mime = '' ){
 
     return $data;
 }
+add_action('widgets_init', 'travelblog_widgets_init');
 
+function travelblog_widgets_init() {
+    register_sidebar(
+        array(
+            'name'          => esc_html__('Сайдбар блога', 'travelblog'),
+            'id'            => "sidebar",
+            'description'   => '',
+            'class'         => 'sidebar-widget',
+            'before_widget' => '<div id="%1$s" class="widget %2$s sidebar-widgets">',
+            'after_widget'  => "</div>\n",
+            'before_title'  => '',
+            'after_title'   => '',
+            'before_sidebar' => '', // WP 5.6
+            'after_sidebar'  => '', // WP 5.6
+        )
+
+    );
+}
