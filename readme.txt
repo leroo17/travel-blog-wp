@@ -1,4 +1,4 @@
 Посмотреть проект в актуальном состоянии можно по ссылке:
-https://travel-blog.wfile.ru/
+https://travel.fox-blog.ru/
 
 Успехов!
